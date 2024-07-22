@@ -532,7 +532,7 @@ const Watch = () => {
           />
         )}
         {source === "AGG" && id !== "" && id !== null && embedMode === true ? (
-          <iframe
+          <iframe sandbox="allow-scripts"
             scrolling="no"
             src={
               type === "movie"
@@ -547,7 +547,7 @@ const Watch = () => {
         ) : null}
 
         {source === "VID" && id !== "" && id !== null && embedMode === true ? (
-          <iframe
+          <iframe sandbox="allow-scripts"
             scrolling="no"
             src={
               type === "movie"
@@ -562,7 +562,7 @@ const Watch = () => {
         ) : null}
 
         {source === "PRO" && id !== "" && id !== null && embedMode === true ? (
-          <iframe
+          <iframe sandbox="allow-scripts"
             scrolling="no"
             src={
               type === "movie"
@@ -577,7 +577,7 @@ const Watch = () => {
         ) : null}
 
         {source === "EMB" && id !== "" && id !== null && embedMode === true ? (
-          <iframe
+          <iframe sandbox="allow-scripts"
             scrolling="no"
             src={
               type === "movie"
@@ -595,7 +595,7 @@ const Watch = () => {
         id !== "" &&
         id !== null &&
         embedMode === true ? (
-          <iframe
+          <iframe sandbox="allow-scripts"
             scrolling="no"
             src={
               type === "movie"
@@ -610,7 +610,7 @@ const Watch = () => {
         ) : null}
 
         {source === "SUP" && id !== "" && id !== null && embedMode === true ? (
-          <iframe
+          <iframe sandbox="allow-scripts"
             scrolling="no"
             src={
               type === "movie"
@@ -625,7 +625,7 @@ const Watch = () => {
         ) : null}
 
         {source === "CLUB" && id !== "" && id !== null && embedMode === true ? (
-          <iframe
+          <iframe sandbox="allow-scripts"
             scrolling="no"
             src={
               type === "movie"
@@ -643,7 +643,7 @@ const Watch = () => {
         id !== "" &&
         id !== null &&
         embedMode === true ? (
-          <iframe
+          <iframe sandbox="allow-scripts"
             scrolling="no"
             src={
               type === "movie"
@@ -658,7 +658,7 @@ const Watch = () => {
         ) : null}
 
         {source === "ONE" && id !== "" && id !== null && embedMode === true ? (
-          <iframe
+          <iframe sandbox="allow-scripts"
             scrolling="no"
             src={
               type === "movie"
@@ -673,7 +673,7 @@ const Watch = () => {
         ) : null}
 
         {source === "ANY" && id !== "" && id !== null && embedMode === true ? (
-          <iframe
+          <iframe sandbox="allow-scripts"
             scrolling="no"
             src={
               type === "movie"
@@ -691,7 +691,7 @@ const Watch = () => {
         id !== "" &&
         id !== null &&
         embedMode === true ? (
-          <iframe
+          <iframe sandbox="allow-scripts"
             scrolling="no"
             src={
               type === "movie"
@@ -706,7 +706,7 @@ const Watch = () => {
         ) : null}
 
         {source === "RGS" && id !== "" && id !== null && embedMode === true ? (
-          <iframe
+          <iframe sandbox="allow-scripts"
             scrolling="no"
             src={
               type === "movie"
@@ -721,7 +721,7 @@ const Watch = () => {
         ) : null}
 
         {source === "FRE" && id !== "" && id !== null && embedMode === true ? (
-          <iframe
+          <iframe sandbox="allow-scripts"
             scrolling="no"
             src={
               type === "movie"
@@ -736,7 +736,7 @@ const Watch = () => {
         ) : null}
 
         {source === "POR" && id !== "" && id !== null && embedMode === true ? (
-          <iframe
+          <iframe sandbox="allow-scripts"
             scrolling="no"
             src={
               type === "movie"
@@ -751,7 +751,8 @@ const Watch = () => {
         ) : null}
 
         {source === "WEB" && id !== "" && id !== null && embedMode === true ? (
-          <iframe
+          <iframe sandbox="allow-scripts"
+            sandbox="allow-scripts"
             scrolling="no"
             src={
               type === "movie"
@@ -768,7 +769,8 @@ const Watch = () => {
         ) : null}
 
         {source === "ADF" && id !== "" && id !== null && embedMode === true ? (
-          <iframe
+          <iframe sandbox="allow-scripts"
+            sandbox="allow-scripts"
             scrolling="no"
             src={
               type === "movie"
